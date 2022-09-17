@@ -1,0 +1,234 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+}
+
+nav{
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    justify-content: space-between;
+
+    align-items: center;
+    font-weight: 600;
+}
+.left{
+    display: flex;
+}
+.center{
+    display: flex;
+}
+.right{
+    display: flex;
+}
+a {
+    padding: 1.2rem;
+    color: white;
+    text-decoration: none;
+}
+.svg-logo{
+    color: white;
+    width: 150px;
+    height: 50px;
+}
+.sec1{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-size: cover;
+    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/5a7b3001-249f-4065-a330-4ea6a17ccf7b/bvlatuR/std/2560x1708/Model-3-Main-Hero-Desktop-LHD") ;
+    padding-top: 40px;
+}
+
+.propeties{
+    display: flex;
+    padding-top: 100px;
+    align-items: center;
+}
+.btn1{
+    height: 50px;
+    padding: 20px;
+    width: 120px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    font-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn1:hover {
+    background-color: white;
+    color: black;
+}
+
+h2{
+    color: white;
+}
+.proprety{
+    display: flex;
+    flex-direction: column;
+    padding: 1.2rem;
+}
+
+h1{
+    color: white;
+}
+
+.buttomInformation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.arrow-down{
+    animation: arrow 1s infinite;
+    overflow: hidden;
+}
+@keyframes arrow{
+    25% {
+        transform: translateY(-10px);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    75% {
+        transform: translateY(-10px);
+    }
+
+}
+.sec2{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+.sec2-left{
+    display: flex;
+}
+.sec2-right{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+.sec2-img{
+    width: 100%;
+    height: 100%;
+}
+.sec2-h3{
+    color: black;
+    font-size: 20px;
+}
+.sec2-p{
+    color: black;
+    margin-bottom: 1px;
+}
+.sec2-h2{
+    color: black;
+    margin-bottom: 10px;
+}
+.p-rating{
+    color: black;
+}
+.rating{
+    display: flex;
+    justify-content: space-evenly;
+}
+.rating-left{
+    display: flex;
+    flex-direction: column;
+
+}
+.rating-right{
+    display: flex;
+    flex-direction: column;
+    
+}
+.btn-moreinfo{
+    background-color: transparent;
+    border: none;
+}
+.ordernow{
+    width: 40%;
+    background-color: transparent;
+    transition: 0.2s;
+    cursor: pointer;
+
+}
+
+.ordernow:hover {
+    background-color: black;
+    color: white;
+}
+.sec3{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.sec3img{
+    height: 100%;
+    width: 100%;
+}
+.sec3upper{
+    display: flex;
+    height: 70%;
+    width: 100%;
+    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/1a5ba4b1-efd8-40bc-8b6d-e81bf8223e37/bvlatuR/std/2560x1440/Model-3-Performance-Hero-Desktop-LHD");
+    background-size: cover;
+    justify-content: center;
+    align-items: flex-end;
+}
+.sec3bottom{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.sec3upperbox{
+    display: flex;
+    padding: 2rem;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:14rem;
+    text-align: center;
+}
+.sec3bottom-left{
+    width: 70%
+}
+
+
+.h2-bottom{
+    color: black;
+}
+.p-bottom{
+    color: black;
+}
+.rightbutton2{
+    display: flex;
+
+}
+
+.btn-moreinfo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sec1Title {
+    font-size: 180%;
+    color: white;
+    padding: 2rem;
+    font-weight: 500;
+}
+
+.proprety p {
+    color: white;
+}
